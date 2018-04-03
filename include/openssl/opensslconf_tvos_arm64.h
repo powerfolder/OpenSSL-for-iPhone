@@ -119,8 +119,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/Users/oberdoerfer/Documents/Sources/PFM-IOS/Frameworks/OpenSSL-for-iPhone/bin/AppleTVOS10.2-arm64.sdk/lib/engines"
-#define OPENSSLDIR "/Users/oberdoerfer/Documents/Sources/PFM-IOS/Frameworks/OpenSSL-for-iPhone/bin/AppleTVOS10.2-arm64.sdk"
+#define ENGINESDIR "/Users/sundance/Documents/PowerFolder/Sources/PFM-IOS/Frameworks/OpenSSL-for-iPhone/bin/AppleTVOS11.3-arm64.sdk/lib/engines"
+#define OPENSSLDIR "/Users/sundance/Documents/PowerFolder/Sources/PFM-IOS/Frameworks/OpenSSL-for-iPhone/bin/AppleTVOS11.3-arm64.sdk"
 #endif
 #endif
 
